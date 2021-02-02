@@ -27,7 +27,7 @@ public class Main {
         }
 
         System.out.println();
-        
+
         for(int i = 0; i < 3; i++){
             for(int i1 = 0; i1 < 3; i1++){
                 System.out.print(arr2[i][i1] + " ");
