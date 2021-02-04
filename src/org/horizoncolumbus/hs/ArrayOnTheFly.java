@@ -15,7 +15,7 @@ public class ArrayOnTheFly {
 
         for(int i = 0; i < rowSize; i++) {
             for (int j = 0; j < columnSize; j++) {
-                System.out.print("Enter Row " + i + " Column " + j + " Size: ");
+                System.out.print("Enter Row " + (i+1) + " Column " + (j+1) + " Size: ");
                 matrix[i][j] = input.nextInt();
             }
         }
